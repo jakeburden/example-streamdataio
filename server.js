@@ -4,7 +4,7 @@ var merry = require('merry')
 var bankai = require('bankai')
 
 var app = merry()
-var assets = bankai(path.join(__dirname, './public/app.js'))
+var assets = bankai(path.join(__dirname, './app.js'))
 
 var count = 0
 
