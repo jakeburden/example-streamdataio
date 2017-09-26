@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>example streamdataio app</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont,
+           'avenir next', avenir,
+           'Segoe UI',
+           'lucida grande',
+           'helvetica neue', helvetica,
+           'Fira Sans',
+           roboto, noto,
+           'Droid Sans',
+           cantarell, oxygen, ubuntu,
+           'franklin gothic medium', 'century gothic',
+           'Liberation Sans',
+           sans-serif;
+
+      margin: 0 auto;
+      max-width: 58em;
+      padding: 2em;
+    }
+
+    a {
+      display: block;
+      color: #2196f3;
+    }
+
+    p {
+      color: rgba(0, 0, 0, 0.8);
+      line-height: 1.5;
+    }
+
+
+    h1 {
+      border-bottom: 5px solid;
+      display: inline-block;
+      font-size: 2.25rem;
+      line-height: 1.25;
+      font-weight: 900;
+      margin-bottom: 1rem;
+      margin-top: 0;
+    }
+
+    h1 div {
+      display: inline-block;
+    }
+
+    
+    small {
+      display: block;
+      color: #777;
+      font-size: .875rem;
+    }
+
+    small a {
+      display: inline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>
+    Counting:
+    <span>
+      <div id="count"></div>
+    </span>
+  </h1>
+
+  <small>Uses <a href="https://streamdata.io/">https://streamdata.io/</a> to turn a REST api into a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events">SSE</a></small>
+
+  <pre>
+    <code>
+      <a href="/counter">/counter</a>
+    </code>
+  </pre>
+
+
+	<script src='/bundle.js'></script>
+</body>
+</html>

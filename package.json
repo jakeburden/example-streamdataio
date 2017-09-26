@@ -1,0 +1,20 @@
+{
+  "name": "example-streamdataio",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "format": "standard --fix",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bankai": "^9.0.0-1",
+    "merry": "^5.4.0",
+    "streamdataio-js-sdk": "^2.0.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
